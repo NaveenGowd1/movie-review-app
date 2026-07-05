@@ -52,7 +52,7 @@ INSTALLED_APPS = [
     'reviews',
     'accounts',
     
-    "corsheaders",
+   
     
     
 ]
