@@ -1,0 +1,851 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2026-06-23T07:05:10.718Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Netflix",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2026-06-23T07:05:47.674Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "PrimeVideo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2026-06-23T07:06:00.232Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "AHA",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2026-06-23T07:09:01.746Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Arundhathi",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2026-06-23T07:11:09.959Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "User1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2026-06-23T07:12:08.946Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Arundhathi - User1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2026-06-23T07:12:17.620Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Arundhathi - User1",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2026-06-24T09:24:18.638Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Arundhathi - User1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2026-06-24T09:26:03.828Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Arundhathi - User1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2026-06-24T09:57:41.793Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Arundhathi - User1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2026-06-24T10:22:49.197Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "RRR",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2026-06-27T15:06:39.911Z",
+    "user": 4,
+    "content_type": 4,
+    "object_id": "5",
+    "object_repr": "user2",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2026-06-30T15:24:06.347Z",
+    "user": 4,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Arya",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Platforms\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2026-06-30T15:29:20.115Z",
+    "user": 4,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Arundhathi - Naveen",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add streaming platform",
+    "content_type": 7,
+    "codename": "add_streamingplatform"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change streaming platform",
+    "content_type": 7,
+    "codename": "change_streamingplatform"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete streaming platform",
+    "content_type": 7,
+    "codename": "delete_streamingplatform"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view streaming platform",
+    "content_type": 7,
+    "codename": "view_streamingplatform"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add movie",
+    "content_type": 8,
+    "codename": "add_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change movie",
+    "content_type": 8,
+    "codename": "change_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete movie",
+    "content_type": 8,
+    "codename": "delete_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view movie",
+    "content_type": 8,
+    "codename": "view_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add review",
+    "content_type": 9,
+    "codename": "add_review"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change review",
+    "content_type": 9,
+    "codename": "change_review"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete review",
+    "content_type": 9,
+    "codename": "delete_review"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view review",
+    "content_type": 9,
+    "codename": "view_review"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$RZEQJNqcwoAH7nJA8AdA4Q$P1GkePmKcdEYYbAmxo4+vHWedsafeiE7CQK43JDNOQs=",
+    "last_login": "2026-06-23T07:04:17.685Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin168@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-06-23T06:50:19.768Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$KeRYV9UPzmvGW16gYYBMYc$b4OCRdADiGaeLZrrWmLfPBrmDq8zKroIePHy4KJ/QgI=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "User1",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-23T07:11:09.634Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$DJKWHpU6637VKB8neMkyva$4AkWf9xd2ag+2o7ibo73uacCDrDXSLbwU/IUDLu8OOI=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Naveen",
+    "first_name": "",
+    "last_name": "",
+    "email": "naveen168@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-24T09:40:46.611Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$GQ9IvmXXCmKo5IJat2IOY4$vusMrKqT/P01HZ53wXZI9hfnpEzJbEvkwIDnGGXmc6o=",
+    "last_login": "2026-06-27T15:03:55.533Z",
+    "is_superuser": true,
+    "username": "klrahul",
+    "first_name": "",
+    "last_name": "",
+    "email": "klrahul@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-06-27T15:03:17.170Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$BKN25BktMlmVvLslUkBivZ$L7aYa/RfwedVFqcjgV2pBWnsMzuKyGI1LhY26IHow4Y=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user2",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-27T15:06:39.230Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$eiy5YPoHgf7nrWty4NSy5h$MUOPGC5KbkssHmGvIRK2r2XUx5LQIYqK9EDcHS2x8vw=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user4",
+    "first_name": "",
+    "last_name": "",
+    "email": "user4@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-30T16:15:10.890Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "movies",
+    "model": "streamingplatform"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "movies",
+    "model": "movie"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "reviews",
+    "model": "review"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "g9geyzcdxo0s8xw0nnxf65nz6iez84ur",
+  "fields": {
+    "session_data": ".eJxVjEEOgjAQRe_StWmcMqWtS_ecgcx0BosaSCisjHdXEha6_e-9_zI9bWvpt6pLP4q5GDSn340pP3Tagdxpus02z9O6jGx3xR602m4WfV4P9--gUC3fWlMrDKQunwE8OWJyOASEEGKDKSikFr0OECFkxyiNRE6-gcwh4yDm_QHfozfS:1wdUZX:FtTEqDa-4GEVOL1dG42q5sIPY9cA9ij0q8zSh3yo2D8",
+    "expire_date": "2026-07-11T15:03:55.547Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "qievy2po4fq3stb8bhxvwqq0x2oiwc9c",
+  "fields": {
+    "session_data": ".eJxVjDkOwjAUBe_iGlne4gRKes5g_c04gGIpTirE3UmkFNC-mXlvlWBdSlqbzGlkdVFWnX43BHrKtAN-wHSvmuq0zCPqXdEHbfpWWV7Xw_07KNDKVnuHKDF64iE7PNPgMrGNhixDZpQNR--tDyw2s4l9ZyIA9UwBILhOfb4Q9zkB:1wbuyH:-_8yaO-H3_VkqDMP61Hsihgp5FKgyviry6FnVQ412fg",
+    "expire_date": "2026-07-07T06:50:57.513Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "vpgxofpffhcwc7ppsitx22efr4735noc",
+  "fields": {
+    "session_data": ".eJxVjDkOwjAUBe_iGlne4gRKes5g_c04gGIpTirE3UmkFNC-mXlvlWBdSlqbzGlkdVFWnX43BHrKtAN-wHSvmuq0zCPqXdEHbfpWWV7Xw_07KNDKVnuHKDF64iE7PNPgMrGNhixDZpQNR--tDyw2s4l9ZyIA9UwBILhOfb4Q9zkB:1wbvBB:uXiXvbx3M4_J--vEA6AmGGjmj5oi0jltjymsAOwlo-Q",
+    "expire_date": "2026-07-07T07:04:17.695Z"
+  }
+},
+{
+  "model": "movies.streamingplatform",
+  "pk": 1,
+  "fields": {
+    "name": "Netflix",
+    "website": "http://www.netflix.com",
+    "logo": "",
+    "subscription_price": null
+  }
+},
+{
+  "model": "movies.streamingplatform",
+  "pk": 2,
+  "fields": {
+    "name": "PrimeVideo",
+    "website": "http://www.primevideo.com",
+    "logo": "",
+    "subscription_price": null
+  }
+},
+{
+  "model": "movies.streamingplatform",
+  "pk": 3,
+  "fields": {
+    "name": "AHA",
+    "website": "http://www.aha.com",
+    "logo": "",
+    "subscription_price": null
+  }
+},
+{
+  "model": "movies.streamingplatform",
+  "pk": 4,
+  "fields": {
+    "name": "DisneyPlus",
+    "website": "http://www.hotstar.com",
+    "logo": "",
+    "subscription_price": "199.00"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 1,
+  "fields": {
+    "title": "Arundhathi",
+    "storyline": "Arundhati revolves around a brave warrior princess who battles an evil, power-hungry mystic, and her descendant who is forced to reincarnate and destroy the same lingering evil centuries later to save her family and kingdom.",
+    "poster": "movies/Arundhathi.jpeg",
+    "release_date": "2009-01-16",
+    "avg_rating": 3.0,
+    "number_rating": 1,
+    "active": true,
+    "created": "2026-06-23T07:09:01.744Z",
+    "platforms": [
+      2
+    ]
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 2,
+  "fields": {
+    "title": "RRR",
+    "storyline": "a fictional epic set in 1920s India that imagines what would have happened if two real-life Indian revolutionaries, Alluri Sitarama Raju and Komaram Bheem, had met, become best friends, and joined forces to fight the oppressive British colonial rule",
+    "poster": "",
+    "release_date": "2022-03-25",
+    "avg_rating": 4.5,
+    "number_rating": 2,
+    "active": true,
+    "created": "2026-06-24T10:22:49.191Z",
+    "platforms": [
+      1
+    ]
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 3,
+  "fields": {
+    "title": "Arya",
+    "storyline": "The story follows Arya (Allu Arjun), an outgoing, free-spirited, and confident young man who falls in love with Geetha (Anu Mehta) at first sight . Unlike typical romantic stories, Arya openly expresses his feelings but makes it clear that he does not expect or demand her love in return; he just wants the freedom to love her. The conflict arises because Geetha is introverted and deeply involved with a dominant and possessive guy named Ajay (Siva Balaji) . The film explores a unique love triangle, selfless sacrifice, and the true meaning of one-sided love.",
+    "poster": "",
+    "release_date": "2004-05-07",
+    "avg_rating": 4.0,
+    "number_rating": 1,
+    "active": true,
+    "created": "2026-06-27T15:24:17.500Z",
+    "platforms": [
+      3
+    ]
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 4,
+  "fields": {
+    "movie": 2,
+    "review_user": 3,
+    "review_description": "Amazing movie",
+    "created_at": "2026-06-24T10:22:53.969Z",
+    "updated_at": "2026-06-24T10:22:53.969Z",
+    "rating": 5
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 5,
+  "fields": {
+    "movie": 2,
+    "review_user": 4,
+    "review_description": "Hey Actually its a pretty good movie",
+    "created_at": "2026-06-30T16:07:17.715Z",
+    "updated_at": "2026-06-30T16:07:17.716Z",
+    "rating": 4
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 6,
+  "fields": {
+    "movie": 1,
+    "review_user": 6,
+    "review_description": "Very Good movie satisfied for the ticket price",
+    "created_at": "2026-06-30T16:15:48.789Z",
+    "updated_at": "2026-06-30T16:15:48.789Z",
+    "rating": 3
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 7,
+  "fields": {
+    "movie": 3,
+    "review_user": 6,
+    "review_description": "Very Unique movie loved it from kerala.",
+    "created_at": "2026-07-01T08:11:34.069Z",
+    "updated_at": "2026-07-01T08:11:34.071Z",
+    "rating": 4
+  }
+}
+]
