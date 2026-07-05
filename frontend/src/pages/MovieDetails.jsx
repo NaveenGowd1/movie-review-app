@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { getMovieDetails } from "../services/movieService";
-import { addReview } from "../services/movieService";
+import { getMovieDetails } from "../services/MovieService";
+import { addReview } from "../services/MovieService";
 
 function MovieDetails() {
     const { id } = useParams();

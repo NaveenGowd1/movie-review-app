@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getMovies } from "../services/movieService";
+import { getMovies } from "../services/MovieService";
 import MovieCard from "../components/MovieCard";
 
 function Home() {
